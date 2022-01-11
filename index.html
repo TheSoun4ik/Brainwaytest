@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.min.js/3.2.0/css/glide.core.min.min.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>gulp-scss-starter</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800;900&family=Spartan:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.min.css"/>
+        <link rel="stylesheet" href="styles/main.min.css">
+    </head>
+    <body>
+        <header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo" href="../index.html">
+                <img class="header__logo-img" src="../img/logo.svg" alt="">
+                <div class="header__logo-cross">
+                    <img src="../../img/cross.svg" alt="">
+                </div>
+            </a>
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__inner">
+                        <li class="nav__item">
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../pages/process.html">Process</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../pages/company.html">Company</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../pages/whyus.html">Why us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="btn btn--header">Contact us</a>
+                <div class="langs">
+                    <div class="langs__icon">
+                        <img src="../img/lang.svg" alt="">
+                    </div>
+                    <ul class="langs__list">
+                        <li class="langs__list-item">
+                            <a href="#">EN</a>
+                        </li>
+                        <li class="langs__list-item">
+                            <a href="#">RU</a>
+                        </li>
+                    </ul>
+                    <div class="langs__arr">
+                        <img src="../img/lang-arr.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="burger">
+                <img src="../../img/burger.svg" alt="">
+            </div>
+        </div>
+    </div>
+</header>
+
+
+        <div class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__content">
+                        <h2 class="intro__title">We turn <span>your ideas</span> into <span>real life</span> products.</h2>
+                        <div class="intro__text">Welcome! We are Brainway: a software house that specializes in developing software solutions and providing technological consulting to organizations.</div>
+                        <a class="intro__down" href="#contact">
+                            <div class="intro__down-text">Are you ready to bring your idea to life?</div>
+                            <div class="intro__down-icon">
+                                <img src="img/intro/arrow.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="intro__photo">
+                        <img src="img/intro/main.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="product">
+            <div class="container">
+                <div class="product__inner">
+                    <h2 class="product__title"><span>Functional product</span> ready for the future and tailored to your budget.</h2>
+                    <div class="product__video">
+                        <img src="img/product/video.png" alt="" class="product__video-main">
+                        <img src="img/product/play.svg" alt="" class="product__video-play">
+                        <img src="img/product/sound.svg" alt="" class="product__video-sound">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="solutions">
+            <div class="solutions__bg"></div>  
+            <div class="container">
+                <h2 class="solutions__title">Solutions</h2>
+                <div class="solutions__text">
+                    Welcome! We are Brainway: <span>a software house</span> that  specializes in developing software solutions and providing technological consulting to organizations.
+                </div>
+                <div class="solutions__inner">
+                    <div class="solutions__item">
+                        <div class="solutions__item-photo">
+                            <img src="img/solutions/1.png" alt="">
+                        </div>
+                        <div class="solutions__item-content">
+                            <h3 class="solutions__item-title">End-to-End Solutions</h3>
+                            <div class="solutions__item-text">Our development team is here from A to Z and is ready to empower your product in every stage of production. We will work with you on product definition, an in-depth analysis of your project’s needs to determine the technological means and tools necessary to get the work done. Once we have the proper foundation laid for your solution, we will then work through development and keep you informed each step of the way. After completion, we strive to provide 24/7 support and maintenance services to ensure the product is fully operational after deployment.</div>
+                        </div>
+                    </div>
+                    <div class="solutions__item">
+                        <div class="solutions__item-content">
+                            <h3 class="solutions__item-title">For Entrepreneurs & Start-Ups</h3>
+                            <div class="solutions__item-text">We are here to accompany start-ups and entrepreneurs at every stage from conception to solution production, PoC, development, and initial product maintenance as it is exposed to the market. We pride ourselves on this adaptive partnership style because it gives you exactly what you need as a new business to get your product created without the hassle of working with multiple companies at each phase of creation.</div>
+                        </div>
+                        <div class="solutions__item-photo">
+                            <img src="img/solutions/2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="solutions__item">
+                        <div class="solutions__item-photo">
+                            <img src="img/solutions/3.png" alt="">
+                        </div>
+                        <div class="solutions__item-content">
+                            <h3 class="solutions__item-title">Flexible Working Models</h3>
+                            <div class="solutions__item-text">Having the flexibility to adjust the size of your team can be vital when it comes time to divert your budget from R&D to marketing or sales. With our adaptive approach, we will give you the ability to adjust your development team and even add part-time profiles like a CTO, Product Manager, or Chief Architect, as necessary. We will adjust the team’s size to fit your company’s current needs to offer you the expertise required to keep your project running; this will help you avoid unnecessary hiring and firing cycles and our experts will still remain available to you whenever you need it. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="goal">
+            <div class="goal__bg"></div>
+            <div class="container">
+                <h2 class="goal__title">What’s your goal?</h2>
+                <div class="goal__inner">
+                    <div class="goal__item">
+                        <div class="goal__img">
+                            <img src="img/goal/1.png" alt="">
+                        </div>
+                        <div class="goal__text">
+                           <span>Rather than conducting extensive and expensive market research, you’ve chosen to start with an MVP?</span>  We can make something for you that just outlines the essentials to get it onto market and test and collect feedback on your product out in the real world. We are here to help with that!
+                        </div>
+                        <div class="goal__btn">
+                            <a href="#" class="btn btn--goal">Get Free</a>
+                        </div>
+                    </div>
+                    <div class="goal__item">
+                        <div class="goal__img">
+                            <img src="img/goal/2.png" alt="">
+                        </div>
+                        <div class="goal__text">
+                           <span>You have a concrete outline of what you want from your tech-based solution?</span>  We are happy to get involved and build the exact product per your specifications, budget, and timeline in order to get you up and running as efficiently as possible.
+                        </div>
+                        <div class="goal__btn">
+                            <a href="#" class="btn btn--goal">Get Free</a>
+                        </div>
+                    </div>
+                    <div class="goal__item">
+                        <div class="goal__img">
+                            <img src="img/goal/3.png" alt="">
+                        </div>
+                        <div class="goal__text">
+                           <span>Have an existing system but you’re ready to step it up a notch?</span>  We can analyze your current offering and propose a new architecture to take your product to the next generation and ensure a smooth migration. Once the specific approach is chosen, we will lead you into a shiny new system that is ready for reimplementation in the market.
+                        </div>
+                        <div class="goal__btn">
+                            <a href="#" class="btn btn--goal">Get Free</a>
+                        </div>
+                    </div>
+                    <div class="goal__item">
+                        <div class="goal__img">
+                            <img src="img/goal/4.png" alt="">
+                        </div>
+                        <div class="goal__text">
+                           <span>Do you have an idea for the next great tech product or service but don’t have the technical team to make it happen?</span>  Bring us on board and we will become your trusted technical partner and ensure that your idea is brought to life according to the highest industry standards.
+                        </div>
+                        <div class="goal__btn">
+                            <a href="#" class="btn btn--goal">Get Free</a>
+                        </div>
+                    </div>
+                    <div class="goal__item">
+                        <div class="goal__img">
+                            <img src="img/goal/5.png" alt="">
+                        </div>
+                        <div class="goal__text">
+                           <span>Are you in the middle of building your product but things just quite aren’t going your way?</span>  We can help you get everything back on track! Our team will analyze the situation and find the most effective and efficient solutions based on your particular needs so your product can be ready to launch as quickly as possible.
+                        </div>
+                        <div class="goal__btn">
+                            <a href="#" class="btn btn--goal">Get Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="customers">
+            <div class="container">
+                <h2 class="customers__title">Our customers</h2>
+                <div class="customers__track swiper">
+                    <div class="customers__inner swiper-wrapper">
+                        <div class="customers__item swiper-slide">
+                            <div class="customers__top">
+                                <div class="customers__author">
+                                    <div class="customers__photo">
+                                        <img src="img/customers/1.png" alt="">
+                                    </div>
+                                    <div class="customers__info">
+                                        <div class="customers__name">Lawrence Feinstein</div>
+                                        <div class="customers__pos">PhD</div>
+                                    </div>
+                                </div>
+                                <div class="customers__company">
+                                    <img src="img/customers/company-logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="customers__quote">
+                                <div class="customers__quote-icon">
+                                    <img src="img/customers/quotes.svg" alt="">
+                                </div>
+                                <div class="customers__quote-text">Thoughtful and customer focused</div>
+                            </div>
+                            <div class="customers__text">Our company is a new start-up located in the heart of Silicon Valley, California. To build our product and assist with our launch, we had a choice to use local developers...</div>
+                            <div class="customers__link">
+                                <a href="#">Read more</a>
+                                <img src="img/customers/company-logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="customers__item swiper-slide">
+                            <div class="customers__top">
+                                <div class="customers__author">
+                                    <div class="customers__photo">
+                                        <img src="img/customers/1.png" alt="">
+                                    </div>
+                                    <div class="customers__info">
+                                        <div class="customers__name">Lawrence Feinstein</div>
+                                        <div class="customers__pos">PhD</div>
+                                    </div>
+                                </div>
+                                <div class="customers__company">
+                                    <img src="img/customers/company-logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="customers__quote">
+                                <div class="customers__quote-icon">
+                                    <img src="img/customers/quotes.svg" alt="">
+                                </div>
+                                <div class="customers__quote-text">Thoughtful and customer focused</div>
+                            </div>
+                            <div class="customers__text">Our company is a new start-up located in the heart of Silicon Valley, California. To build our product and assist with our launch, we had a choice to use local developers...</div>
+                            <div class="customers__link">
+                                <a href="#">Read more</a>
+                                <img src="img/customers/company-logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="customers__item swiper-slide">
+                            <div class="customers__top">
+                                <div class="customers__author">
+                                    <div class="customers__photo">
+                                        <img src="img/customers/1.png" alt="">
+                                    </div>
+                                    <div class="customers__info">
+                                        <div class="customers__name">Lawrence Feinstein</div>
+                                        <div class="customers__pos">PhD</div>
+                                    </div>
+                                </div>
+                                <div class="customers__company">
+                                    <img src="img/customers/company-logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="customers__quote">
+                                <div class="customers__quote-icon">
+                                    <img src="img/customers/quotes.svg" alt="">
+                                </div>
+                                <div class="customers__quote-text">Thoughtful and customer focused</div>
+                            </div>
+                            <div class="customers__text">Our company is a new start-up located in the heart of Silicon Valley, California. To build our product and assist with our launch, we had a choice to use local developers...</div>
+                            <div class="customers__link">
+                                <a href="#">Read more</a>
+                                <img src="img/customers/company-logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customers__controls" data-glide-el="controls">
+                    <div class="customers__arrow" data-glide-dir="<">
+                        <img src="img/arrow-left.svg" alt="">
+                    </div>
+                    <div class="customers__bullets" data-glide-el="controls[nav]">
+                        <button class="customers__bullet" data-glide-dir="=0"></button>
+                        <button class="customers__bullet" data-glide-dir="=1"></button>
+                        <button class="customers__bullet" data-glide-dir="=2"></button>
+                      </div>
+                    <div class="customers__arrow" data-glide-dir=">">
+                        <img src="img/arrow-right.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="companies">
+            <div class="companies__track swiper">
+                <div class="companies__inner swiper-wrapper">
+                    <div class="companies__item swiper-slide">
+                        <img src="img/companies/1.png" alt="">
+                    </div>
+                    <div class="companies__item swiper-slide">
+                        <img src="img/companies/2.png" alt="">
+                    </div>
+                    <div class="companies__item swiper-slide">
+                        <img src="img/companies/3.png" alt="">
+                    </div>
+                    <div class="companies__item swiper-slide">
+                        <img src="img/companies/4.png" alt="">
+                    </div>
+                    <div class="companies__item swiper-slide">
+                        <img src="img/companies/5.png" alt="">
+                    </div>
+                    <div class="companies__item swiper-slide">
+                        <img src="img/companies/6.png" alt="">
+                    </div>
+                    <div class="companies__item swiper-slide">
+                        <img src="img/companies/7.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact" id="contact">
+            <div class="contact__bg"></div>
+            <div class="container">
+                <div class="contact__inner">
+                    <form action="POST" class="form">
+                        <h3 class="form__title">Contact us</h3>
+                        <input type="text" class="form__input" placeholder="Name">
+                        <input type="text" class="form__input" placeholder="Company">
+                        <input type="text" class="form__input" placeholder="Email">
+                        <input type="text" class="form__input" placeholder="Phone">
+                        <textarea name="textarea" class="form__textarea" placeholder="Whats on your mind?"></textarea>
+                        <p class="form__notice">By clicking on the button, You agree with Privacy Policy</p>
+                        <button class="form__btn" type="submit">Send</button>
+                    </form>
+                    <div class="contact__offices">
+                        <h3 class="contact__offices-title">Offices</h3>
+                        <div class="contact__tabs">
+                            <div class="contact__tabs-item active">
+                                <div class="contact__tabs-contact">
+                                    <div class="contact__tabs-item-icon">
+                                        <img src="img/contact/map.svg" alt="">
+                                    </div>
+                                    <span class="contact__tabs-item-text contact__tabs-item-text--top">Israel</span>    
+                                </div>
+                                <address class="contact__tabs-address">Petah Tikva, 37 Amal St. </address>
+                                <div class="contact__tabs-contact">
+                                    <div class="contact__tabs-item-icon">
+                                        <img src="img/contact/phone.svg" alt="">
+                                    </div>
+                                    <span class="contact__tabs-item-text">
+                                        +(972)545-331-851
+                                    </span>    
+                                </div>
+                            </div>
+                            <div class="contact__tabs-item">
+                                <div class="contact__tabs-contact">
+                                    <div class="contact__tabs-item-icon">
+                                        <img src="img/contact/map.svg" alt="">
+                                    </div>
+                                    <span class="contact__tabs-item-text contact__tabs-item-text--top">Russia</span>    
+                                </div>
+                                <address class="contact__tabs-address">St. Petersburg, 46 Garden St.</address>
+                                <div class="contact__tabs-contact">
+                                    <div class="contact__tabs-item-icon">
+                                        <img src="img/contact/phone.svg" alt="">
+                                    </div>
+                                    <span class="contact__tabs-item-text">
+                                        +(972)545-331-851
+                                    </span>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__map">
+                            <img src="img/contact/map.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__left">
+                <h1 class="footer__title">Want to work with us?</h1>
+                <div class="footer__text">Stop thinking of something when you can have it!
+                    Contact us now and bring your idea to life.</div>
+            </div>
+            <div class="footer__right">
+                <nav class="footer__nav">
+                    <div class="footer__nav-item">
+                        <a href="#">
+                            <img src="../../img/footer-logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__nav-item">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="footer__nav-item">
+                        <a href="#">Process</a>
+                    </div>
+                    <div class="footer__nav-item">
+                        <a href="#">Сompany</a>
+                    </div>
+                    <div class="footer__nav-item">
+                        <a href="#">Why us</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__social">
+                <div class="footer__social-link">
+                    <a href="#">info@brainway.co.il</a>
+                </div>
+                <div class="footer__social-link">
+                    <a href="#">
+                        <img src="../../img/linkedin.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer__social-link">
+                    <a href="#">
+                        <img src="../../img/facebook.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="footer__copyright-text">© 2018 — 2021 Brainway LTD</div>
+                <a href="#" class="footer__copyright-privacy">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <div class="modal">
+    <form action="POST" class="modal__form">
+        <div class="modal__close">
+            <img src="../img/cross-modal.svg" alt="">
+        </div>
+        <h3 class="modal__title"><span>Free</span> consultation</h3>
+        <div class="modal__text">Stop thinking of something when you can have it! Contact us now and  bring your idea to life.</div>
+        <input type="text" class="modal__input" placeholder="Name">
+        <input type="text" class="modal__input" placeholder="Email">
+        <input type="text" class="modal__input" placeholder="Phone">
+        <textarea name="textarea" class="modal__textarea" placeholder="Whats on your mind?"></textarea>
+        <p class="modal__notice">By clicking on the button, You agree with Privacy Policy</p>
+        <button class="form__btn" type="submit">Send</button>
+    </form>
+</div>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.min.js"></script>
+        <script src="js/main.min.js"></script>
+
+        <!-- <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                    delay: 2000,
+                }
+            });
+        </script> -->
+    </body>
+</html>
